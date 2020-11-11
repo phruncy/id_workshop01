@@ -29,7 +29,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js" integrity="sha512-m0RQU4SBx0p/bLwRiI4fJBGRafVLZ4s86wRe1+OAx5EXbcWiS/X1jvYdJQRD8jOoIVl+WTyVeMawUWVCh1O8+Q==" crossorigin="anonymous"></script>
   ```
 - [Lottie Web documentation](http://airbnb.io/lottie/#/web)
-- [The official site](https://airbnb.design/lottie/)
+- [The official lottie website](https://airbnb.design/lottie/)
 
 - [Lottiefiles], a platform for sharing animation files and drag-and-drop previews of your animations
 
