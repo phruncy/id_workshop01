@@ -31,7 +31,9 @@
 - [Lottie Web documentation](http://airbnb.io/lottie/#/web)
 - [The official lottie website](https://airbnb.design/lottie/)
 
-- [Lottiefiles](https://lottiefiles.com/), a platform for sharing animation files and drag-and-drop previews of your animations
+- [Lottiefiles](https://lottiefiles.com/), a platform for sharing animation files 
+
+- [Lottie Editor](https://lottiefiles.com/editor) for drag-and-drop previews of your animations
 
 ---
 
