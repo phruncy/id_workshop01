@@ -35,6 +35,8 @@
 
 - [Lottie Editor](https://lottiefiles.com/editor) for drag-and-drop previews of your animations
 
+- [Lottie key functions demo](http://zellmemore.de/other/interaction/lottie/)
+
 ---
 
 ## Further resources
