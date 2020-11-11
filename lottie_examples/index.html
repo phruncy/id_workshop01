@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lottie animations</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js" integrity="sha512-m0RQU4SBx0p/bLwRiI4fJBGRafVLZ4s86wRe1+OAx5EXbcWiS/X1jvYdJQRD8jOoIVl+WTyVeMawUWVCh1O8+Q==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>Overview of Lottie animation methods</h1>
+    <div class="content">
+
+      <div class="animation-container" id="play-pause">
+        <div class="panel">
+          <h3>animation.play() + animation.goToAndStop()</h3>
+          <button id="play-button">play</button>
+          <button id="reset">reset</button>
+        </div>
+      </div>
+
+      <div class="animation-container" id="speed">
+        <div class="panel">
+          <h3>animation.setSpeed()</h3>
+          <span id="slider-label" class="label">speed value: </span>
+          <input type="range" name="speed" id="slider" min="0" max="2" value="1" step="0.1"> 
+        </div> 
+      </div>
+      
+      <div class="animation-container" id="reverse">
+        <div class="panel">
+          <h3>animation.setDirection()</h3>
+          <button id="reverse-btn">reverse</button>
+        </div>
+      </div>
+
+      <div class="animation-container" id="segment">
+        <div class="panel">
+          <h3>animation.playSegments()</h3>
+          <span id="segment-info" class="label">Current frame: 0</span>
+          <button id="segment-btn">next segment</button>
+        </div>
+      </div>
+
+    </div>
+    <script src="./main.js" async defer></script>
+  </body>
+</html>
