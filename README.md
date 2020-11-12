@@ -35,7 +35,11 @@
 
 - [Lottie Editor](https://lottiefiles.com/editor) for drag-and-drop previews of your animations
 
-- [Lottie key functions demo](http://zellmemore.de/other/interaction/lottie/)
+## Lottie Examples
+
+- [Lottie key functions demo](http://zellmemore.de/other/interaction/lottie/): Code can be found under *lottie_animation_methods*
+
+- [Animated Button Demo](http://zellmemore.de/other/interaction/petbutton/): A fairly more complex example of multiple animations on one interface elements. Code can be found unter *animated_button_example*
 
 ---
 

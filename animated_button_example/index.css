@@ -1,0 +1,39 @@
+body {
+    max-width: 500px;
+    margin: auto;
+    padding: 2em;
+}
+
+.content {
+    background-image: url(./assets/frame.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    padding: 20% 0% 20% 0%;
+}
+
+/* Formats the container for animation and trigger 
+    The 'relative' position is necessary for the formatting of trigger to work
+*/
+.animation-unit {
+    margin: auto;
+    position: relative;
+    max-width: 180px;
+    min-width: 120px;
+}
+
+/* 
+  positions the trigger element as a centered invisible overlay to the animation. Key is the 'absolute' position value that remove the element 
+  from the document flow and allows to freely position in relation to a 'relative' positioned parent. 
+  Uncomment the background color to see the trigger area 
+*/
+.trigger {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 50%;
+    top: 50%;   
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    /* background-color: blue; */
+}

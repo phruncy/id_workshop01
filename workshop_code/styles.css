@@ -1,0 +1,7 @@
+/* style of the animation container
+if not width is defined, the animation will take the width of the parent element (in this case, the whole window) */
+.animation-outer {
+    width: 200px;
+    background: rgb(136, 193, 216);
+    cursor: pointer; /* changes the cursor to the hand when over this element*/
+}
